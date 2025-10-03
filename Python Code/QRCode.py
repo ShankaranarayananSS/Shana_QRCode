@@ -1,3 +1,4 @@
+#Importing Packages
 import qrcode
 from qrcode.constants import ERROR_CORRECT_L
 from PIL import Image
@@ -20,8 +21,8 @@ qr.make(fit=True)
 
 # Creating QR
 img = qr.make_image(fill_color="black", back_color="white")
-#img = qr.make_image(fill_color="#000000", back_color="#FFFFFF")          //  Hex Value
-#img = qr.make_image(fill_color=(0, 0, 0), back_color=(255, 255, 255))    //  RGB Value
+#img = qr.make_image(fill_color="#000000", back_color="#FFFFFF")					//	Hex Value
+#img = qr.make_image(fill_color=(0, 0, 0), back_color=(255, 255, 255))				//	RGB Value
 
 # Saving File
 file_name = f"{name}.png"
