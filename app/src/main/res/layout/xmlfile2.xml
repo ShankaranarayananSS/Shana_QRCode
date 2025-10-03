@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".JavaFile2"
+    style="@style/Screen">
+
+    <TextView
+        android:text="QR Code to Link!"
+        style="@style/Headings"/>
+
+    <TableRow style="@style/Tables">
+
+        <TextView
+            android:text="QR Code to Link:"
+            style="@style/Labels"/>
+
+        <Button
+            android:id="@+id/button"
+            android:text="Scan QR"
+            style="@style/Buttons"/>
+
+    </TableRow>
+
+    <TableRow style="@style/Tables">
+
+        <TextView
+            android:text="Toggle Light Fill:"
+            style="@style/Labels"/>
+
+        <Button
+            android:id="@+id/toggle"
+            android:text="Torch Off"
+            style="@style/Toggle"/>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/copy"
+        style="@style/Labels"/>
+
+</LinearLayout>

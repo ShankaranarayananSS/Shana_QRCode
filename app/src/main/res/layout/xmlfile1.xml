@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".JavaFile1"
+    style="@style/Screen">
+
+    <TextView
+        android:text="Enter Link to Generate QR:"
+        style="@style/Labels"/>
+
+    <EditText
+        android:id="@+id/link"
+        android:hint="example.com"
+        android:inputType="textUri"
+        style="@style/Boxes"/>
+
+    <TextView
+        android:text="Enter QR Code Name:"
+        style="@style/Labels"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Example"
+        style="@style/Boxes"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="Generate QR"
+        style="@style/Buttons"/>
+
+    <TextView
+        android:id="@+id/show"
+        style="@style/Labels"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
